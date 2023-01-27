@@ -15,8 +15,8 @@ Set of simple python scripts to send messages in WhatsApp Web
 
 ## Run Locally
 
-You will need to install Python on  you system. Head over to https://www.python.org/downloads/ to download python.
-(Dont Forget to Tick Add to Path while installing Python)
+You will need to install Python on you system, head over to https://www.python.org/downloads/ to download python.
+(Dont Forget to Tick Add Python to PATH while installing Python)
 
 Once you have downloaded Python on your system, 
 run the following command inside your terminal
@@ -47,6 +47,12 @@ If error occurs when activating virtual environment, run the following command
 
 ```bash
   Set-ExecutionPolicy Unrestricted
+```
+
+or
+
+```bash
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 ```
 
 Install the dependencies needed for this project
